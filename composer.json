@@ -1,0 +1,15 @@
+{
+  "name": "ogarose/calc",
+  "description": "String calculator. Calculate input string with simple expression, for instance 8+96",
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calc\\": "src/"
+    }
+  }
+}
