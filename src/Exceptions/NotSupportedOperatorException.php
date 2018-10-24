@@ -1,7 +1,4 @@
 <?php
-/**
- * @author alex 23.10.18
- */
 
 namespace Calc\Exceptions;
 

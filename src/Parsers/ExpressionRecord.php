@@ -1,9 +1,4 @@
 <?php
-/**
- * User: alex
- * Date: 21.10.18
- * Time: 15.23
- */
 
 namespace Calc\Parsers;
 

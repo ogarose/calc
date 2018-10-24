@@ -1,7 +1,4 @@
 <?php
-/**
- * @author alex
- */
 
 namespace Calc\Calculators;
 

@@ -1,7 +1,4 @@
 <?php
-/**
- * @author alex 24.10.18
- */
 
 namespace Calc\Calculators;
 
@@ -16,6 +13,11 @@ abstract class CalculatorFactory implements CalculatorInterface
 
     abstract protected function getCalculator(): CalculatorInterface;
 
+    /**
+     * Run expression calculation
+     * @param string $inputExpression
+     * @return float|int
+     */
     public function calculate(string $inputExpression)
     {
         $calculator = $this->getCalculator();

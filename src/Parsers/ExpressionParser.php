@@ -1,16 +1,19 @@
 <?php
-/**
- * @author alex 23.10.18
- */
 
 namespace Calc\Parsers;
 
 
 use Calc\Exceptions\ExpressionParseException;
 
+/**
+ * Parse input expression
+ * Class ExpressionParser
+ * @package Calc\Parsers
+ */
 class ExpressionParser implements ExpressionParserInterface
 {
     /**
+     * Do string parsing to expression
      * @param string $inputExpression
      * @return ExpressionRecord
      * @throws ExpressionParseException
@@ -38,7 +41,7 @@ class ExpressionParser implements ExpressionParserInterface
     }
 
     /**
-     * check does't one of input variable is not numeric
+     * check do one of input variables is not numeric
      * @param mixed ...$numbers
      * @return bool
      */

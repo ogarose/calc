@@ -1,11 +1,12 @@
 <?php
-/**
- * @author alex 23.10.18
- */
 
 namespace Calc\Parsers;
 
-
+/**
+ * Interface for parsers
+ * Interface ExpressionParserInterface
+ * @package Calc\Parsers
+ */
 interface ExpressionParserInterface
 {
     /**

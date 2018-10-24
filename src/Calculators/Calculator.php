@@ -1,9 +1,4 @@
 <?php
-/**
- * User: alex
- * Date: 21.10.18
- * Time: 14.59
- */
 
 namespace Calc\Calculators;
 
@@ -38,6 +33,7 @@ class Calculator implements CalculatorInterface
     }
 
     /**
+     * Run expression calculation
      * @param string $inputExpression
      * @return float|int
      * @throws NotSupportedOperatorException
